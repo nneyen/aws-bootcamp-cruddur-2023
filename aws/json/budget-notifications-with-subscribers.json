@@ -1,0 +1,17 @@
+[
+    {
+      "Notification": {
+        "NotificationType": "ACTUAL",
+        "ComparisonOperator": "GREATER_THAN",
+        "Threshold": 80,
+        "ThresholdType": "PERCENTAGE",
+        "NotificationState": "ALARM"
+      },
+      "Subscribers": [
+        {
+          "SubscriptionType": "EMAIL",
+          "Address": "example@youremail.com"
+        }
+      ]
+    }
+  ]
